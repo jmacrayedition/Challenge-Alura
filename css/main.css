@@ -1,0 +1,98 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+header {
+    background-color: rgb(233, 0, 0);
+    height: 3em;
+    color: rgb(255, 255, 255);
+    margin-bottom: 1em;
+}
+
+header h1 {
+    font-size: 2em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header h2 {
+    font-size: 2em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+header .container:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.container {
+    width: 60%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.grupo_one {
+
+    float: left;
+    padding: 10px;
+    width: 400px;
+    height: 300px;
+    margin: 40px;
+    background-color: white;
+    text-align: center;
+    font-size: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.grupo_two {
+
+    float: left;
+    padding: 10px;
+    width: 400px;
+    height: 300px;
+    margin: 40px;
+    background-color: white;
+    text-align: justify;
+    font-size: 40px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+input{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  color: red;
+}
+button {
+    background-color:red; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  label{
+      color: black;
+      background-color: white;
+  }
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    background-color: red;
+    color: white;
+    font-size: 26px;
+    text-align: center;
+ 
+ }
+ 

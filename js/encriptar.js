@@ -1,4 +1,11 @@
 
+document.getElementById("texto_one").addEventListener("input", (e) => {
+    let value = e.target.value;
+    e.target.value = value.replace(/[^a-z&ñ]/g, "");
+
+
+
+});
 var botonEncriptar = document.querySelector("#encriptar-texto");
 botonEncriptar.addEventListener("click", function (event) {
 
@@ -37,6 +44,13 @@ u: ufat
 Solo minúsculas, sin acentos
 
 */
+document.getElementById("texto_two").addEventListener("input", (e) => {
+    let value = e.target.value;
+    e.target.value = value.replace(/[^a-z&ñ]/g, "");
+
+
+
+});
 function mtdEncriptar(texto) {
 
 
